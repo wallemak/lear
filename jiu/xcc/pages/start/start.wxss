@@ -1,0 +1,35 @@
+/* pages/start/start.wxss */
+.start_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.content{
+  position:absolute;
+  color:#fff;
+  font-size:8pt;
+  /* padding:10rpx; */
+  line-height:80rpx;
+  border-radius: 100rpx;
+  background-color:rgb(72, 203, 255);
+  width:200rpx;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  bottom:200rpx;
+  border:1rpx solid black;
+  opacity: 0;
+  animation: into 2s cubic-bezier(0.23,1,0.32,1) .75s forwards;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+@keyframes into {
+  from {opacity: 0; transform: translate3d(0,60rpx,0); }
+  to {opacity: 0.7; transform: translate3d(0,0,0); }
+}

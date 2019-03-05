@@ -1,0 +1,7 @@
+<!--pages/start/start.wxml-->
+<view class="box" >
+<image class="start_img" src="/images/cover/comeon.jpg"></image>
+  <view class="content" bindtap='click_start'>
+    <text>点击进入</text>
+  </view>
+</view>

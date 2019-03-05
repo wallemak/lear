@@ -1,0 +1,6 @@
+/* pages/my/my.wxss */
+.view1{
+  display:inline-block;
+  width:500rpx;
+  background-color: rgb(37, 24, 156);
+}
